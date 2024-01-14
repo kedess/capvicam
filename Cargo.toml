@@ -15,7 +15,6 @@ ctrlc = {version = "3.4.2"}
 clap = { version = "4.4.16", features = ["derive"] }
 tokio = { version = "1", features = ["full"] }
 lazy_static = "1.4.0"
-atomic-counter = "1.0.1"
 tokio-util = "0.7.10"
 
 [build-dependencies]

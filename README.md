@@ -17,7 +17,7 @@ http://localhost:8008
 ffplay http://localhost:8008
 ```
 
-Пролучение справки по параметрам запуска:
+Получение справки по параметрам запуска:
 ```bash
 ./target/release/capvicam -h
 ```

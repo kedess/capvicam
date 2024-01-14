@@ -1,23 +1,23 @@
 ## capvicam
 
-Утилита захвата видео с usb камеры через систему video for linux (v4l2)
+Utility for capturing video from a USB camera via the video for linux system (v4l2)
 
 
-### Пример использования:
-Запуск:
+### Usage example:
+Run:
 ```bash
 RUST_LOG=info ./target/release/capvicam --path=/dev/video0 --width=1920 --height=1080 --mjpeg=enable --port=8008
 ```
-Просмотр видео в браузере:
+Watching videos in the browser:
 ```bash
 http://localhost:8008
 ```
-Просмотр видео через ffplay:
+Watching videos via ffplay:
 ```bash
 ffplay http://localhost:8008
 ```
 
-Получение справки по параметрам запуска:
+Getting help:
 ```bash
 ./target/release/capvicam -h
 ```
